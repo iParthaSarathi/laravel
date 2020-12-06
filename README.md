@@ -31,6 +31,42 @@ go to project folder and run
 $ php artisan serve  
 Starting Laravel development server: http://127.0.0.1:8000  
 [Sun Dec  6 19:48:44 2020] PHP 7.4.13 Development Server (http://127.0.0.1:8000) started  
+# create new controller  
+php artisan make:controller PageController  <location << app << http << controllers  
+
+
+# data flow 
+controller return view template to router  
+
+# layout  
+
+If you want to install bootstrap 4 in your laravel 8 project then install following laravel ui composer package to get command:  
+
+composer require laravel/ui  
+After successfully install above package then we are ready to install bootstrap 4 with our application.  
+
+we can install two way, one is a simple bootstrap 4 setup install and another is install bootstrap 4 with auth. So let's see both way.  
+
+Install Bootstrap 4  
+
+php artisan ui bootstrap   
+Install Bootstrap 4 with auth  
+  
+php artisan ui bootstrap --auth  
+Now we installed bootstrap, you can see your resource directory js folder.  
+  
+You also need to install npm and run it. so let's run both command:  
+  
+Install NPM  
+  
+npm install  
+Run NPM  
+  
+npm run dev  
+Now you can work with your bootstrap 4 app.  
+
+  
+
 
 
 
