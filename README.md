@@ -26,6 +26,11 @@ DB_USERNAME=travel_user
 DB_PASSWORD=password  
   
 +==================================================================================================
+go to project folder and run  
+
+$ php artisan serve  
+Starting Laravel development server: http://127.0.0.1:8000  
+[Sun Dec  6 19:48:44 2020] PHP 7.4.13 Development Server (http://127.0.0.1:8000) started  
 
 
 
